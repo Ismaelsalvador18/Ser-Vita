@@ -10,7 +10,14 @@ import com.tricodedevs.servitapantallas.R
 
 
 val inspiration = FontFamily(Font(R.font.inspiration_regular, FontWeight.Normal))
+val GreatVibes = FontFamily(
+    Font(R.font.greatvibes_regular)
+)
 
+val MerriweatherSans = FontFamily(
+    Font(R.font.merriweathersans, FontWeight.Normal),
+    Font(R.font.merriweathersans, FontWeight.Bold)
+)
 val Merriweather = FontFamily.Serif
 val Typography = Typography(
     displayLarge = TextStyle(
